@@ -12,7 +12,6 @@ public class Team {
         this.curentDistanse = curentDistanse;
     }
 
-
     public void printData(){
         System.out.println(Team.this.teamName + " " + Team.this.memberName + " " + Team.this.curentDistanse);
 
