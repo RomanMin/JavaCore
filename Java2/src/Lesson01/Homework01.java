@@ -9,6 +9,7 @@ public class Homework01 {
         currentCourse[2] = new Course(1000, 1200, 900);
 
 
+
         Team[] teamMates = new Team[4];
         teamMates[0] = new Team("Team1", "Pavel", 1000);
         teamMates[1] = new Team("Team1", "Oleg", 890);

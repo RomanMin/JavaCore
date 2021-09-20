@@ -14,8 +14,6 @@ public class Course {
         this.walkDistanse = walkDistanse;
     }
 
-
-
 }
 
 
