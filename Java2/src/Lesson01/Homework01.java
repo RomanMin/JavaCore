@@ -9,7 +9,7 @@ public class Homework01 {
         currentCourse[2] = new Course(1000, 1200, 900);
 
 
-        Team teamMates[] = new Team[4];
+        Team[] teamMates = new Team[4];
         teamMates[0] = new Team("Team1", "Pavel", 1010);
         teamMates[1] = new Team("Team1", "Oleg", 990);
         teamMates[2] = new Team("Team1", "Ivan", 1200);
@@ -17,14 +17,14 @@ public class Homework01 {
 
 
         System.out.println("Участники Соревнований");
-        for (int i = 0; i < teamMates.length; i++) {
-            teamMates[i].printData();
+        for (Team teamMate : teamMates) {
+            teamMate.printData();
         }
         System.out.println("Победители соревнований");
-        for (int i = 0; i < teamMates.length; i++) {
-            for (int j = 0; j < currentCourse.length; j++) {
-                if (teamMates[i].curentDistanse >= currentCourse[j].runDistanse)
-                    teamMates[i].printData();
+        for (Team teamMate : teamMates) {
+            for (Course course : currentCourse) {
+                if (teamMate.curentDistanse >= course.runDistanse)
+                    teamMate.printData();
 
             }
         }
