@@ -18,14 +18,16 @@ public class Homework01 {
 
 
         System.out.println("Участники Соревнований");
-        for (Team teamMate : teamMates) {
-            teamMate.printData();
+        for (int i = 0; i == teamMates.length; i++) {
+            teamMates[i].printData();
         }
+
+
         System.out.println("Победители соревнований");
-        for (int i = 0; i = teamMates.length; i++ : teamMates) {
-            for (int j = 0 currentCourse) {
-                if (teamMate[i].curentDistanse >= course.runDistanse)
-                    teamMate.printData();
+        for (int i = 0; i < teamMates.length; i++) {
+            for (int j = 0; j < currentCourse.length; j++) {
+                if (teamMates[i].curentDistanse >= currentCourse[j].walkDistanse)
+                    teamMates[i].printData();
 
             }
         }
