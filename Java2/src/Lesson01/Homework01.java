@@ -22,9 +22,9 @@ public class Homework01 {
             teamMate.printData();
         }
         System.out.println("Победители соревнований");
-        for (Team teamMate : teamMates) {
-            for (Course course : currentCourse) {
-                if (teamMate.curentDistanse >= course.runDistanse)
+        for (int i = 0; i = teamMates.length; i++ : teamMates) {
+            for (int j = 0 currentCourse) {
+                if (teamMate[i].curentDistanse >= course.runDistanse)
                     teamMate.printData();
 
             }
