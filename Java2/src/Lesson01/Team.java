@@ -12,9 +12,21 @@ public class Team {
         this.curentDistanse = curentDistanse;
     }
 
+
     public void printData(){
         System.out.println(Team.this.teamName + " " + Team.this.memberName + " " + Team.this.curentDistanse);
 
     }
 
+
+
+
+
+
 }
+/*
+    название команды;
+    массив из четырех участников — в конструкторе можно сразу всех участников указывать);
+        метод для вывода информации о членах команды, прошедших дистанцию;
+        метод вывода информации обо всех членах команды.
+*/
