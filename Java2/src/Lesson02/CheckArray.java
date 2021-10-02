@@ -24,7 +24,7 @@ public class CheckArray {
                     }
                     catch (NumberFormatException e2) {
                         System.out.println("Ошибка в поле: " + i + ":" + j);
-                    //throw new MyArrayDataException();
+                    throw new MyArrayDataException();
                     }
                 }
             }
