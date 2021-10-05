@@ -14,5 +14,6 @@ public class ArrayHw4 {
         System.out.println("_______________________");
         System.out.println(newArray);
         System.out.println("_______________________");
-    }
+
+      }
 }
