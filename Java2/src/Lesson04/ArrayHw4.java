@@ -1,19 +1,20 @@
 package Lesson04;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class ArrayHw4 {
 
     public static void main(String[] args) {
 
-        Collection<String> newArray = new ArrayList<>(Arrays.asList("Word1", "Word2", "Word3", "Word1", "Word2", "Word3"));
+        String[] newArray = {"Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3", "Word1", "Word2", "Word3"};
+        Map<String, Integer> finalArray = new HashMap<>();
 
-        System.out.println("_______________________");
-        System.out.println(newArray);
-        System.out.println("_______________________");
+            for (int i = 0; i < newArray.length; i++)
+                if (finalArray.containsKey(newArray[i]))
+                    finalArray.put(newArray[i], finalArray.get(newArray[i]) + 1);
+                else
+                    finalArray.put(newArray[i], 1);
+            System.out.print(finalArray);
+        }
 
-      }
 }
