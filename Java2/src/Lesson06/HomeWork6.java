@@ -19,7 +19,5 @@ public class HomeWork6 {
                 new BufferedReader(new InputStreamReader(in, UTF_8))
                         .lines()
                         .forEach(System.out::println);
-
-
         }
 }
